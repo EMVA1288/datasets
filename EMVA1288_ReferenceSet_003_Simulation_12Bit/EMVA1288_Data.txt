@@ -1,0 +1,438 @@
+###############################################################################
+# Copyright (C) 2011 HCI, University of Heidelberg
+# Author: Prof. Dr. Bernd Jähne
+# http://hci.iwr.uni-heidelberg.de//Benchmarks/document/simulated-camera-data-emva-1288-verification/
+#
+###############################################################################
+#
+# Measurement for EMVA1288 Standard Release 3.0
+#
+# Basic Information
+# Vendor: Simulation
+# Model: -
+# Type of data presented: Single
+# Sensor: simulated sensor
+# Sensor type: -
+# Sensor diagonal: -
+# Lens category: -
+# Resolution: 640 x 480 pixel
+# Pixel width: -
+# Pixel height: -
+# Readout type: -
+# Transfer type: -
+# Shutter type: -
+# Overlap capabilities: -
+# Maximum readout rate: -
+# Interface type: -
+#
+# Light Source
+# Illumination type: -
+# Wavelength: simulated quantum efficiency eta = 0.5
+# Wavelength Variation: -
+# Distance sensor to light source: -
+# Diameter of the light source: -
+# f-Number: -
+#
+# Operating Point
+# Video output format: 12 bits per pixel
+# Gain Register: simulated overall system gain K = 0.1
+# Offset Register: simulated mean dark value mu_y.dark = 29.4 DN
+#
+# Measurements
+# Temporal noise
+# - Bright: 2 Images per illumination step
+# - Dark: 2 Images
+# Spatial Noise Measurements
+# - Bright: 100 Images;
+# - Dark: 100 Images;
+#
+# Simulation conditions:
+# This data set contains simulated data from a 12-bit monochrome camera with the following specifications:
+# 12 bit resolution (gray values between 0 and 4095),
+# quantum efficiency 0.5,
+# overall system gain K = 0.1,
+# and a mean dark value: 29.4 DN
+# Dark noise and DSNU:
+# The standard deviation of the dark noise is 30 e- or 3.0 DN.
+# The DSNU has a white spatial standard deviation of 1.5 DN
+# and two sinusoidal patterns with an amplitude of 1.5 DN
+# and frequencies in horizontal and vertical direction of 0.04 and 0.2 cylces/pixel, respectively.
+# One hundred outlier pixels at random positions are added with an excess dark signal
+# equally distributed between 0 and 15 DN.
+# PRNU:
+# The PRNU has a white spatial standard deviation of 0.5%.
+# In addition, a slightly inhomogenous illumination with a quadratic fall-off
+# towards the edges by about 3% was simulated.
+# One hundred outlier pixels at random positions are added with a reduced sensitivity
+# that is equally distributed between 70% and 100% of the mean sensitivity.
+# Nonlinearity:
+# The signal is modeled slightly nonlinear according to the following model:
+# y' = y ( 1  0.02 (y/ymax)^3)
+# with ymax = 4095
+# The number of photons/pixel increase from step to step by
+# 1659.66 photons/pixel.
+# At the last step (image 050), the pixel is irradiated by 82983 photons.
+#
+#
+# File Format
+# n bits/pixel=12 width/pixel=656 height/pixel=494
+# b exposureTime/ns=40000.0 ns numberPhotons/photons=120.0 photons
+# i relativePathToTheImage
+# d exposureTime/ns=40000.0 ns
+#
+n 12 640 480
+b 1000000 1659.7
+i images\b_001_snap_001.png
+i images\b_001_snap_002.png
+b 1000000 3319.3
+i images\b_002_snap_001.png
+i images\b_002_snap_002.png
+b 1000000 4979.0
+i images\b_003_snap_001.png
+i images\b_003_snap_002.png
+b 1000000 6638.6
+i images\b_004_snap_001.png
+i images\b_004_snap_002.png
+b 1000000 8298.3
+i images\b_005_snap_001.png
+i images\b_005_snap_002.png
+b 1000000 9958.0
+i images\b_006_snap_001.png
+i images\b_006_snap_002.png
+b 1000000 11617.6
+i images\b_007_snap_001.png
+i images\b_007_snap_002.png
+b 1000000 13277.3
+i images\b_008_snap_001.png
+i images\b_008_snap_002.png
+b 1000000 14936.9
+i images\b_009_snap_001.png
+i images\b_009_snap_002.png
+b 1000000 16596.6
+i images\b_010_snap_001.png
+i images\b_010_snap_002.png
+b 1000000 18256.3
+i images\b_011_snap_001.png
+i images\b_011_snap_002.png
+b 1000000 19915.9
+i images\b_012_snap_001.png
+i images\b_012_snap_002.png
+b 1000000 21575.6
+i images\b_013_snap_001.png
+i images\b_013_snap_002.png
+b 1000000 23235.2
+i images\b_014_snap_001.png
+i images\b_014_snap_002.png
+b 1000000 24894.9
+i images\b_015_snap_001.png
+i images\b_015_snap_002.png
+b 1000000 26554.6
+i images\b_016_snap_001.png
+i images\b_016_snap_002.png
+b 1000000 28214.2
+i images\b_017_snap_001.png
+i images\b_017_snap_002.png
+b 1000000 29873.9
+i images\b_018_snap_001.png
+i images\b_018_snap_002.png
+b 1000000 31533.5
+i images\b_019_snap_001.png
+i images\b_019_snap_002.png
+b 1000000 33193.2
+i images\b_020_snap_001.png
+i images\b_020_snap_002.png
+b 1000000 34852.9
+i images\b_021_snap_001.png
+i images\b_021_snap_002.png
+b 1000000 36512.5
+i images\b_022_snap_001.png
+i images\b_022_snap_002.png
+b 1000000 38172.2
+i images\b_023_snap_001.png
+i images\b_023_snap_002.png
+b 1000000 39831.8
+i images\b_024_snap_001.png
+i images\b_024_snap_002.png
+b 1000000 41491.5
+i images\b_025_snap_001.png
+i images\b_025_snap_002.png
+b 1000000 43151.2
+i images\b_026_snap_001.png
+i images\b_026_snap_002.png
+b 1000000 44810.8
+i images\b_027_snap_001.png
+i images\b_027_snap_002.png
+b 1000000 46470.5
+i images\b_028_snap_001.png
+i images\b_028_snap_002.png
+b 1000000 48130.1
+i images\b_029_snap_001.png
+i images\b_029_snap_002.png
+b 1000000 49789.8
+i images\b_030_snap_001.png
+i images\b_030_snap_002.png
+b 1000000 51449.5
+i images\b_031_snap_001.png
+i images\b_031_snap_002.png
+b 1000000 53109.1
+i images\b_032_snap_001.png
+i images\b_032_snap_002.png
+b 1000000 54768.8
+i images\b_033_snap_001.png
+i images\b_033_snap_002.png
+b 1000000 56428.4
+i images\b_034_snap_001.png
+i images\b_034_snap_002.png
+b 1000000 58088.1
+i images\b_035_snap_001.png
+i images\b_035_snap_002.png
+b 1000000 59747.8
+i images\b_036_snap_001.png
+i images\b_036_snap_002.png
+b 1000000 61407.4
+i images\b_037_snap_001.png
+i images\b_037_snap_002.png
+b 1000000 63067.1
+i images\b_038_snap_001.png
+i images\b_038_snap_002.png
+b 1000000 64726.7
+i images\b_039_snap_001.png
+i images\b_039_snap_002.png
+b 1000000 66386.4
+i images\b_040_snap_001.png
+i images\b_040_snap_002.png
+b 1000000 68046.1
+i images\b_041_snap_001.png
+i images\b_041_snap_002.png
+b 1000000 69705.7
+i images\b_042_snap_001.png
+i images\b_042_snap_002.png
+b 1000000 71365.4
+i images\b_043_snap_001.png
+i images\b_043_snap_002.png
+b 1000000 73025.0
+i images\b_044_snap_001.png
+i images\b_044_snap_002.png
+b 1000000 74684.7
+i images\b_045_snap_001.png
+i images\b_045_snap_002.png
+b 1000000 76344.4
+i images\b_046_snap_001.png
+i images\b_046_snap_002.png
+b 1000000 78004.0
+i images\b_047_snap_001.png
+i images\b_047_snap_002.png
+b 1000000 79663.7
+i images\b_048_snap_001.png
+i images\b_048_snap_002.png
+b 1000000 81323.3
+i images\b_049_snap_001.png
+i images\b_049_snap_002.png
+b 1000000 82983.0
+i images\b_050_snap_001.png
+i images\b_050_snap_002.png
+b 1000000 39831.8
+i images\b_s_024_snap_000.png
+i images\b_s_024_snap_001.png
+i images\b_s_024_snap_002.png
+i images\b_s_024_snap_003.png
+i images\b_s_024_snap_004.png
+i images\b_s_024_snap_005.png
+i images\b_s_024_snap_006.png
+i images\b_s_024_snap_007.png
+i images\b_s_024_snap_008.png
+i images\b_s_024_snap_009.png
+i images\b_s_024_snap_010.png
+i images\b_s_024_snap_011.png
+i images\b_s_024_snap_012.png
+i images\b_s_024_snap_013.png
+i images\b_s_024_snap_014.png
+i images\b_s_024_snap_015.png
+i images\b_s_024_snap_016.png
+i images\b_s_024_snap_017.png
+i images\b_s_024_snap_018.png
+i images\b_s_024_snap_019.png
+i images\b_s_024_snap_020.png
+i images\b_s_024_snap_021.png
+i images\b_s_024_snap_022.png
+i images\b_s_024_snap_023.png
+i images\b_s_024_snap_024.png
+i images\b_s_024_snap_025.png
+i images\b_s_024_snap_026.png
+i images\b_s_024_snap_027.png
+i images\b_s_024_snap_028.png
+i images\b_s_024_snap_029.png
+i images\b_s_024_snap_030.png
+i images\b_s_024_snap_031.png
+i images\b_s_024_snap_032.png
+i images\b_s_024_snap_033.png
+i images\b_s_024_snap_034.png
+i images\b_s_024_snap_035.png
+i images\b_s_024_snap_036.png
+i images\b_s_024_snap_037.png
+i images\b_s_024_snap_038.png
+i images\b_s_024_snap_039.png
+i images\b_s_024_snap_040.png
+i images\b_s_024_snap_041.png
+i images\b_s_024_snap_042.png
+i images\b_s_024_snap_043.png
+i images\b_s_024_snap_044.png
+i images\b_s_024_snap_045.png
+i images\b_s_024_snap_046.png
+i images\b_s_024_snap_047.png
+i images\b_s_024_snap_048.png
+i images\b_s_024_snap_049.png
+i images\b_s_024_snap_050.png
+i images\b_s_024_snap_051.png
+i images\b_s_024_snap_052.png
+i images\b_s_024_snap_053.png
+i images\b_s_024_snap_054.png
+i images\b_s_024_snap_055.png
+i images\b_s_024_snap_056.png
+i images\b_s_024_snap_057.png
+i images\b_s_024_snap_058.png
+i images\b_s_024_snap_059.png
+i images\b_s_024_snap_060.png
+i images\b_s_024_snap_061.png
+i images\b_s_024_snap_062.png
+i images\b_s_024_snap_063.png
+i images\b_s_024_snap_064.png
+i images\b_s_024_snap_065.png
+i images\b_s_024_snap_066.png
+i images\b_s_024_snap_067.png
+i images\b_s_024_snap_068.png
+i images\b_s_024_snap_069.png
+i images\b_s_024_snap_070.png
+i images\b_s_024_snap_071.png
+i images\b_s_024_snap_072.png
+i images\b_s_024_snap_073.png
+i images\b_s_024_snap_074.png
+i images\b_s_024_snap_075.png
+i images\b_s_024_snap_076.png
+i images\b_s_024_snap_077.png
+i images\b_s_024_snap_078.png
+i images\b_s_024_snap_079.png
+i images\b_s_024_snap_080.png
+i images\b_s_024_snap_081.png
+i images\b_s_024_snap_082.png
+i images\b_s_024_snap_083.png
+i images\b_s_024_snap_084.png
+i images\b_s_024_snap_085.png
+i images\b_s_024_snap_086.png
+i images\b_s_024_snap_087.png
+i images\b_s_024_snap_088.png
+i images\b_s_024_snap_089.png
+i images\b_s_024_snap_090.png
+i images\b_s_024_snap_091.png
+i images\b_s_024_snap_092.png
+i images\b_s_024_snap_093.png
+i images\b_s_024_snap_094.png
+i images\b_s_024_snap_095.png
+i images\b_s_024_snap_096.png
+i images\b_s_024_snap_097.png
+i images\b_s_024_snap_098.png
+i images\b_s_024_snap_099.png
+d 1000000
+i images\d_000_snap_001.png
+i images\d_000_snap_002.png
+d 1000000
+i images\d_s_000_snap_000.png
+i images\d_s_000_snap_001.png
+i images\d_s_000_snap_002.png
+i images\d_s_000_snap_003.png
+i images\d_s_000_snap_004.png
+i images\d_s_000_snap_005.png
+i images\d_s_000_snap_006.png
+i images\d_s_000_snap_007.png
+i images\d_s_000_snap_008.png
+i images\d_s_000_snap_009.png
+i images\d_s_000_snap_010.png
+i images\d_s_000_snap_011.png
+i images\d_s_000_snap_012.png
+i images\d_s_000_snap_013.png
+i images\d_s_000_snap_014.png
+i images\d_s_000_snap_015.png
+i images\d_s_000_snap_016.png
+i images\d_s_000_snap_017.png
+i images\d_s_000_snap_018.png
+i images\d_s_000_snap_019.png
+i images\d_s_000_snap_020.png
+i images\d_s_000_snap_021.png
+i images\d_s_000_snap_022.png
+i images\d_s_000_snap_023.png
+i images\d_s_000_snap_024.png
+i images\d_s_000_snap_025.png
+i images\d_s_000_snap_026.png
+i images\d_s_000_snap_027.png
+i images\d_s_000_snap_028.png
+i images\d_s_000_snap_029.png
+i images\d_s_000_snap_030.png
+i images\d_s_000_snap_031.png
+i images\d_s_000_snap_032.png
+i images\d_s_000_snap_033.png
+i images\d_s_000_snap_034.png
+i images\d_s_000_snap_035.png
+i images\d_s_000_snap_036.png
+i images\d_s_000_snap_037.png
+i images\d_s_000_snap_038.png
+i images\d_s_000_snap_039.png
+i images\d_s_000_snap_040.png
+i images\d_s_000_snap_041.png
+i images\d_s_000_snap_042.png
+i images\d_s_000_snap_043.png
+i images\d_s_000_snap_044.png
+i images\d_s_000_snap_045.png
+i images\d_s_000_snap_046.png
+i images\d_s_000_snap_047.png
+i images\d_s_000_snap_048.png
+i images\d_s_000_snap_049.png
+i images\d_s_000_snap_050.png
+i images\d_s_000_snap_051.png
+i images\d_s_000_snap_052.png
+i images\d_s_000_snap_053.png
+i images\d_s_000_snap_054.png
+i images\d_s_000_snap_055.png
+i images\d_s_000_snap_056.png
+i images\d_s_000_snap_057.png
+i images\d_s_000_snap_058.png
+i images\d_s_000_snap_059.png
+i images\d_s_000_snap_060.png
+i images\d_s_000_snap_061.png
+i images\d_s_000_snap_062.png
+i images\d_s_000_snap_063.png
+i images\d_s_000_snap_064.png
+i images\d_s_000_snap_065.png
+i images\d_s_000_snap_066.png
+i images\d_s_000_snap_067.png
+i images\d_s_000_snap_068.png
+i images\d_s_000_snap_069.png
+i images\d_s_000_snap_070.png
+i images\d_s_000_snap_071.png
+i images\d_s_000_snap_072.png
+i images\d_s_000_snap_073.png
+i images\d_s_000_snap_074.png
+i images\d_s_000_snap_075.png
+i images\d_s_000_snap_076.png
+i images\d_s_000_snap_077.png
+i images\d_s_000_snap_078.png
+i images\d_s_000_snap_079.png
+i images\d_s_000_snap_080.png
+i images\d_s_000_snap_081.png
+i images\d_s_000_snap_082.png
+i images\d_s_000_snap_083.png
+i images\d_s_000_snap_084.png
+i images\d_s_000_snap_085.png
+i images\d_s_000_snap_086.png
+i images\d_s_000_snap_087.png
+i images\d_s_000_snap_088.png
+i images\d_s_000_snap_089.png
+i images\d_s_000_snap_090.png
+i images\d_s_000_snap_091.png
+i images\d_s_000_snap_092.png
+i images\d_s_000_snap_093.png
+i images\d_s_000_snap_094.png
+i images\d_s_000_snap_095.png
+i images\d_s_000_snap_096.png
+i images\d_s_000_snap_097.png
+i images\d_s_000_snap_098.png
+i images\d_s_000_snap_099.png
